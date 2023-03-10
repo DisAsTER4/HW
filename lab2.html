@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, th, td {
+    border: 3px double rgb(0, 0, 0);
+    border-collapse: collapse;
+    }
+    </style>
+<body>
+    <table width="40%">
+         <tr> 
+            <td rowspan="2">aa1</td>
+            <td colspan="2">aa1</td>
+            <td colspan="2">aa1</td>
+            <td >aa1</td>
+        </tr>     
+
+        <tr>
+            <td colspan="4">bb1</td>
+            <td>bb1</td>
+        </tr>
+        <tr>
+            <td >cc1</td>
+            <td>cc2</td>
+            <td rowspan="2">cc2</td>
+            <td>cc2</td>
+            <td>cc2</td>
+            <td>cc2</td>
+        </tr>
+        <tr>
+          <td rowspan="2">dd1</td>
+          <td>dd2</td>
+          <td>dd3</td>
+          <td rowspan="3" colspan="2">dd4</td>
+      </tr>
+      <tr>
+          <td style="border-bottom: hidden;" colspan="3">ee1</td>
+      </tr>
+      <tr>
+        <td >ff1</td>
+    </tr>
+       
+        </table>
+</body>
+</html>
