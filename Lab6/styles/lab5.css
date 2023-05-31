@@ -1,0 +1,111 @@
+body {
+    padding: 40px;
+    background-color: rgb(217, 220, 224);
+    font-family: 'Quattrocento', serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.Right-side {
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.Left-side {
+    background-color: rgb(237, 237, 237);
+    width: 300px;
+    text-align: center;
+    padding-top: 90px;
+    padding-inline: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.Right-boxes {
+    display: flex;
+}
+
+#box {
+    width: 280px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgba(199, 199, 199, 0.542);
+    border-style: solid;
+    margin: 10px;
+}
+
+.boxR {
+    margin-left: 20px;
+}
+
+.Myphoto {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.list {
+    text-align: left;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.surname {
+    font-weight: 100;
+}
+
+.student {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+    width: 100px;
+}
+
+.info {
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+.box-text {
+    margin: 0;
+}
+
+.list-top-li {
+    float: left;
+    list-style: none;
+    padding-left: 30px;
+    padding: 5px 10px;
+}
+
+.list-top-ul {
+    padding-left: 240px;
+}
+
+.about {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(42, 91, 255);
+    width: 43px;
+    color: white;
+}
+
+.button {
+    border: none;
+    background-color: rgb(42, 91, 255);
+    color: white;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 20px;
+}
