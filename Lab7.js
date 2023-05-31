@@ -13,14 +13,14 @@ function Second() {
         let Proste = true; 
         for (let j = 2; j <= Math.sqrt(i); j++) {
             if (i % j === 0) {
-            Proste = false;
-            break;
+                Proste = false;
+                break;
             }
         }
-    if (Proste) {
-      array.push(i);
-    }
-    i++;
+        if (Proste) {
+        array.push(i);
+        }
+        i++;
     }
     sum = array[0] + array[1] + array[2] + array[3] + array[4];
     return sum;
