@@ -19,7 +19,7 @@ class Employee {
 }
 
 class Developer extends Employee {
-    
+
 }
 
 class Designer extends Employee {
@@ -73,12 +73,12 @@ class Department {
     }
 }
 
-const developer1 = new Developer("John", "Doe", 2000, 3);
-const developer2 = new Developer("Jane", "Smith", 2500, 6);
-const designer1 = new Designer("Mike", "Johnson", 1800, 4, 0.8);
-const designer2 = new Designer("Emily", "Williams", 2200, 7, 0.9);
-const manager1 = new Manager("Tom", "Brown", 3000, 8, [developer1, designer1]);
-const manager2 = new Manager("Sarah", "Davis", 3500, 10, [developer2, designer2]);
+const developer1 = new Developer("Valeriy", "Ivanov", 2000, 3);
+const developer2 = new Developer("Ivan", "Volodymyrovich", 2500, 6);
+const designer1 = new Designer("Volodymyr", "Oleksandov", 1800, 4, 0.8);
+const designer2 = new Designer("Olexandr", "Stepanov", 2200, 7, 0.9);
+const manager1 = new Manager("Stepan", "Mykolatovich", 3000, 8, [developer1, designer1]);
+const manager2 = new Manager("Mykolay", "Valeriyovich", 3500, 10, [developer2, designer2]);
 
 const department = new Department([manager1, manager2]);
 
