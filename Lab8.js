@@ -19,9 +19,7 @@ class Employee {
 }
 
 class Developer extends Employee {
-    constructor(fName, lName, baseSalary, experience) {
-        super(fName, lName, baseSalary, experience);
-    }
+    
 }
 
 class Designer extends Employee {
